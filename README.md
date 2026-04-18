@@ -11,10 +11,10 @@ Band concept: haunted ghost station broadcasting from the edge of collapse. Ever
 
 ## Tracks
 
-| Song | Date | Type | Status |
-|------|------|------|--------|
-| The Colors Are Gone | 2026-03-31 | Vocal | [SoundCloud]() |
-| (TBD) | 2026-04-18 | Instrumental | Generating... |
+| Song | Date | Type | Duration | Status |
+|------|------|------|----------|--------|
+| The Colors Are Gone | 2026-03-31 | Vocal | ~3:00 | [SoundCloud]() |
+| haunted signal | 2026-04-18 | Instrumental | 1:51 | [MP3](track_01_haunted_signal.mp3) |
 
 ## Sound
 
