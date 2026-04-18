@@ -4,6 +4,8 @@
 
 **Reference:** [The Velvet Sundown](https://www.reddit.com/r/indieheads/comments/1lmwgff/aigenerated_psychrock_band_the_velvet_sundown/) — *"The memory of a time that never actually happened."*
 
+**Influences:** Austin TV (instrumental post-rock, cinematic builds, masks), Caballeros del Albedrio (darker, more textured), Mogwai (dynamic post-rock)
+
 Band concept: haunted ghost station broadcasting from the edge of collapse. Every song is a document of a system that was almost real.
 
 **Platform:** Suno (primary) + Ace-Step (instrumentals)
