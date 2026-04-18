@@ -1,4 +1,4 @@
-# r3d drum
+# The R3d Drum
 
 > AI-generated band from the edge of the signal. Glitched Americana for the simulation era.
 
