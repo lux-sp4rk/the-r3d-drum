@@ -38,7 +38,14 @@ Short guitar/synth phrases generated via Ace-Step cloud API with reference audio
 
 **Reference clips:** `reference_clips/` — 5-second wav slices from track_02
 
-**Workflow:** Free API (seed generation) → RunPod Ace-Step SFT (Lego mode / stem layering) → Logic Pro (final polish)
+**Workflow:**
+1. Seed generation → Ace-Step cloud API (free)
+2. GPU polish → RunPod Ace-Step local (SFT model) — *pending: SSH access resolved*
+3. Final polish → Logic Pro + MIDI keyboard on MacBook (via SSH)
+
+**MacBook access:** `tailscale ssh ulizzle@100.71.60.3` — files land in `~/r3d-drum/`
+
+**Remote audio check:** `ssh macbook 'afplay ~/r3d-drum/hook_vX.mp3'`
 
 ---
 
