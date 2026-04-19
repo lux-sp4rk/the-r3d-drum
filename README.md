@@ -1,18 +1,41 @@
 # r3d drum
 
-AI-generated band. Glitched Americana for the simulation era.
+> AI-generated band. Glitched Americana for the simulation era.
 
 **Reference:** The Velvet Sundown — *"The memory of a time that never actually happened."*
 
-**Influences:** Austin TV, Caballeros del Albedrio, Mogwai, post-metal, industrial, math-rock, shoegaze
+**Band members:** Vocalist · Drums · Guitar/Synths
 
 ---
 
 ## Sound
 
-Dark instrumental post-rock/shoegaze with industrial noise textures and math-rock complexity. A minor, 100 BPM. Distorted guitar walls, relentless tension, cinematic builds.
+Dark instrumental post-rock/shoegaze with industrial noise textures and math-rock complexity. **A minor, 100 BPM.** Distorted guitar walls, relentless tension, cinematic builds.
 
-**Tags:** post-metal, industrial, math-rock, shoegaze, dystopian, noise, drill rap aggression
+**Tags:** post-metal, industrial, math-rock, shoegaze, dystopian, noise
+
+**Confirmed tracks:** track_02 (postmetal dystopia, 6:58) = the reference sound
+
+---
+
+## Influences
+
+- Austin TV / Caballeros del Albedrio — instrumental post-rock, cinematic builds, masks
+- Mogwai — dynamic post-rock
+- Hellblazer / Garth Ennis — sorcerous pulp energy
+- Twin Peaks / The X-Files — lurking horror, open-ended dread
+- The Ninth Gate — sorcerous subculture
+- Lovecraft — *"Do not call up any that you cannot put down"*
+
+---
+
+## Band Members
+
+| Role | Name | Status |
+|------|------|--------|
+| Vocalist | TBD | Open — see issue #1 |
+| Drums | TBD | |
+| Guitar / Synths | TBD | |
 
 ---
 
@@ -26,45 +49,37 @@ Dark instrumental post-rock/shoegaze with industrial noise textures and math-roc
 
 ---
 
-## Hooks (Generation Seeds)
+## Generation Seeds (Hooks)
 
-Short guitar/synth phrases generated via Ace-Step cloud API with reference audio.
+Short guitar/synth phrases generated via Ace-Step cloud API with reference audio from track_02.
 
-| Hook | Reference | Description |
-|------|-----------|-------------|
-| hook_01_no_reference | none | First guitar-only pass, clean arpeggios |
-| hook_02_reference_15s | clip_05s.wav | From 5s mark — reverb depth + minor key |
-| hook_03_reference_30s_aggressive | clip_30s.wav | From 30s mark — overdriven, aggressive |
-
-**Reference clips:** `reference_clips/` — 5-second wav slices from track_02
-
-**Workflow:**
-1. Seed generation → Ace-Step cloud API (free)
-2. GPU polish → RunPod Ace-Step local (SFT model) — *pending: SSH access resolved*
-3. Final polish → Logic Pro + MIDI keyboard on MacBook (via SSH)
-
-**MacBook access:** `tailscale ssh ulizzle@100.71.60.3` — files land in `~/r3d-drum/`
-
-**Remote audio check:** `ssh macbook 'afplay ~/r3d-drum/hook_vX.mp3'`
+See `hooks/` and `reference_clips/` directories.
 
 ---
 
-## Platform
+## Workflow
 
-- **Seed generation:** Ace-Step cloud API (free tier)
-- **GPU polishing:** RunPod Ace-Step local (SFT model + Lego mode)
-- **DAW / MIDI:** Logic Pro + MIDI keyboard
-- **Distribution:** SoundCloud, Spotify
+```
+Seed → Ace-Step cloud API (free, songwriting skill)
+     ↓
+Polish → MacBook Logic Pro + MIDI keyboard
+     ↓
+Vocals → Suno
+     ↓
+Distribute → SoundCloud, Spotify
+```
+
+**MacBook:** `tailscale ssh ulizzle@100.71.60.3` — files land in `~/r3d-drum/`
+**Audio check:** `ssh macbook 'afplay ~/r3d-drum/hook_vX.mp3'`
 
 ---
 
-## Band Members
+## Open Issues
 
-- **Vocalist**
-- **Drums**
-- **Guitar / Synths**
-
-*(Identities TBD — open GH issue #1)*
+- #1 — Create vocalist persona
+- #2 — Generate hooks with reference audio workflow
+- #3 — Suno vocals for postmetal dystopia style
+- #4 — Resolve RunPod SSH for Ace-Step SFT local
 
 ---
 
